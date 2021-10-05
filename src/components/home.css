@@ -1,0 +1,11 @@
+.appHome{
+    font-size: xx-large;
+    width: 25%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
