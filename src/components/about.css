@@ -1,0 +1,22 @@
+.aboutDiv{
+    margin: 50px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.pdata {
+    font-size: 25px;
+    margin: 10px 50px;
+    font-weight: lighter;
+}
+
+.Appicons{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+
+.Appicons :hover{
+    color: blueviolet;
+    font-size: 70px
+}
