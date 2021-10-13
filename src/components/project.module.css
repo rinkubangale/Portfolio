@@ -1,0 +1,11 @@
+.projectCard{
+    width: 30%;
+    margin: 2rem;
+    padding: 1rem;
+    border: 2px solid;
+    border-radius: .5rem;
+}
+
+.cardImg{
+    width: 100%;
+}
