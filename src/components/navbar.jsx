@@ -23,18 +23,18 @@ export default function Navbar({ imageLink, navStyle }) {
                     <Link to='/contact' className='aLinkContainer'>Contact</Link>
                 </div>
                 <div >
-                    <Link className='aLinkContainer' style={{
+                    <div className='aLinkContainer' style={{
                         fontSize: '18px',
                         rightpadding: '0px',
                         cursor: 'default',
-                    }}>Resume</Link>
+                    }}>Resume</div>
                 </div>
                 <div className='res' style={{
                     width: '50%',
                     leftpadding: '0px',
                     marginLeft: '-26px',
                     cursor:'pointer',
-                }}><Link to={Resume} target="_blank" download><HiOutlineDownload /></Link></div>
+                }}><Link to={Resume} download><HiOutlineDownload /></Link></div>
             </div>
         </div>
     )

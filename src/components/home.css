@@ -9,3 +9,9 @@
     flex-wrap: wrap;
     align-content: center;
 }
+
+@media screen and (min-width: 768px) {
+    .appHome{
+        display: hidden;
+    }
+}
