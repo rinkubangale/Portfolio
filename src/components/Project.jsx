@@ -1,4 +1,5 @@
 import ProjectCard from "./ProjectCard"
+import Styles from './project.module.css'
 import AppImg from './Screenshot.png'
 import AppImg2 from './Screenshot 2.png'
 
@@ -21,7 +22,7 @@ export default function Project() {
     }
     
     return (<>
-        <div style={{display: 'flex'}}>
+        <div className={ Styles.projectDiv }>
             <ProjectCard data={ Project1 }/>
             <ProjectCard data={ Project2 }/>
             <ProjectCard data={ Project3 }/>

@@ -6,11 +6,11 @@ import Avatar from './Avatar.jpg'
 export default function Home() {
     
     return (<>
-        <div className="appHome" style={{height: '40vw'}}>
+        <div className="appHome">
             <div style={{fontSize:'large'}}>hey, I'm</div>
             <div>Rinku Bangale</div>
-            <div style={{textAlign:'center'}}><img src={Avatar} alt="" style={{width:'80%', borderRadius:'50%', border: '2px dotted', padding: '4px'}}/></div>
-            <div style={{fontSize:'x-large', width:'122%'}}> Aspiring Full Stack Web Developer</div>
+            <div style={{textAlign:'center'}}><img src={Avatar} alt="" style={{width:'50%', borderRadius:'50%', border: '2px dotted', padding: '4px'}}/></div>
+            <div style={{fontSize:'x-large'}}> Aspiring Full Stack Web Developer</div>
             <div style={{
                 display: 'flex',
                 justifyContent: 'space-between',

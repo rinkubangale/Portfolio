@@ -1,0 +1,44 @@
+.aboutDiv{
+    margin: 50px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.pdata {
+    font-size: 25px;
+    margin: 10px 50px;
+    font-weight: lighter;
+}
+
+.Appicons{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+
+.Appicons :hover{
+    color: blueviolet;
+    font-size: 70px;
+    margin-top: -10px;
+}
+
+.aboutIcons{
+     font-size: 50px;
+     display: flex;
+     align-items: center;
+     width: 100%;
+     justify-content: space-around;
+     flex-wrap: wrap;
+     align-content: center;
+}
+
+@media (max-width: 1200px){
+    .aboutIcons {
+        font-size: 50px;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        align-items: center;
+        justify-content: space-around;
+        align-content: center;
+    }
+}

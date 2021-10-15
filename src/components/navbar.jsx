@@ -1,7 +1,21 @@
+import {useState} from 'react'
 import { Link } from 'react-router-dom'
-import { HiOutlineDownload } from 'react-icons/hi'
+import { HiOutlineDownload, HiOutlineViewList } from 'react-icons/hi'
 import Resume from './Resume.pdf'
+
+
 export default function Navbar({ imageLink, navStyle }) {
+    const [isNav, setIsNav] = useState(false)
+    const handleNavClick = () => {
+        isNav?setIsNav(false):setIsNav(true)
+    }
+
+    const displayStyle1 = {
+        display: 'flex',
+    }
+    const displayStyle2 = {
+        display: 'none',
+    }
     return  (
         <div className="navbar">
             <div className='logoContainer'>
@@ -9,7 +23,11 @@ export default function Navbar({ imageLink, navStyle }) {
                     <img src={imageLink} alt="image logo" className='logo'/>
                 </Link>
             </div>
-            <div className='linkContainer'>
+
+            <div className={isNav ? "noDisplayDiv" : "displayDiv" } style={{fontSize:"22px", marginRight:"1rem"}} onClick={handleNavClick}><HiOutlineViewList/></div>
+
+            <div className={`linkContainer ${isNav ? 'displayDiv' : 'noDisplayDiv'}`}>
+                <div className='divLinkContainer divCross' onClick={handleNavClick}>+</div>
                 <div className='divLinkContainer'>
                     <Link to='/' className='aLinkContainer'>Home</Link>
                 </div>
@@ -29,12 +47,7 @@ export default function Navbar({ imageLink, navStyle }) {
                         cursor: 'default',
                     }}>Resume</div>
                 </div>
-                <div className='res' style={{
-                    width: '50%',
-                    leftpadding: '0px',
-                    marginLeft: '-26px',
-                    cursor:'pointer',
-                }}><Link to={Resume} download><HiOutlineDownload /></Link></div>
+                <div className='res dwnld'><Link to={Resume} download><HiOutlineDownload /></Link></div>
             </div>
         </div>
     )

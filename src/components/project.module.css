@@ -1,5 +1,4 @@
 .projectCard{
-    width: 30%;
     margin: 2rem;
     padding: 1rem;
     border: 2px solid;
@@ -8,4 +7,16 @@
 
 .cardImg{
     width: 100%;
+}
+
+.projectDiv{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+@media  (max-width: 1200px) {
+    .projectDiv {
+        display: grid;
+        grid-template-columns: auto;
+    }
 }
