@@ -13,6 +13,10 @@ export default function ProjectCard({ data }) {
             <div>
                 <p>{ data.details }</p>
             </div>
+            <div style={{margin:'30px 0px'}}>
+                <a className={styles.btn} href={data.gitLink} target="_blank">GitHub</a>
+                <a className={styles.btn} href={data.demoLink} target="_blank">Demo</a>
+            </div>
         </div>
     </>
 }

@@ -75,7 +75,7 @@
         display: block;
         transform: rotate(45deg);
         padding-top: 0px;
-        margin: -20px 0px 0px 200px !important;
+        margin: -20px 0px 0px 70% !important;
     }
     .linkContainer {
         /* display: flex; */
