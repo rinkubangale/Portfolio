@@ -47,7 +47,7 @@ export default function Navbar({ imageLink, navStyle }) {
                         cursor: 'default',
                     }}>Resume</div>
                 </div>
-                <div className='res dwnld'><Link to={Resume} download><HiOutlineDownload /></Link></div>
+                <div className='res dwnld'><Link to={Resume} target='_blank' download ><HiOutlineDownload /></Link></div>
             </div>
         </div>
     )
