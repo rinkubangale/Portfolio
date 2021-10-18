@@ -1,5 +1,8 @@
 import styles from './project.module.css'
 
+import {SiJavascript, SiHtml5, SiCss3, SiExpress, SiMongodb, SiMysql, SiGit } from 'react-icons/si'
+
+
 export default function ProjectCard({ data }) {
     
     return <>
@@ -12,6 +15,13 @@ export default function ProjectCard({ data }) {
             </div>
             <div>
                 <p>{ data.details }</p>
+            </div>
+            <div>
+                Tech Stack Used :
+                <br />
+                <SiHtml5 style={{fontSize: '30px', margin:'20px 5px 0px 20px'}} />html
+                <SiCss3 style={{fontSize: '30px', margin:'20px 5px 0px 20px'}} />css
+                <SiJavascript style={{fontSize: '30px', margin:'20px 8px 0px 20px'}} />Javascript
             </div>
             <div style={{margin:'30px 0px'}}>
                 <a className={styles.btn} href={data.gitLink} target="_blank">GitHub</a>
