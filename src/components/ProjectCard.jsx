@@ -14,7 +14,7 @@ export default function ProjectCard({ data }) {
                 <h1>{ data.heading }</h1>
             </div>
             <div>
-                <p>{ data.details }</p>
+                <p style={{height:'130px', textAlign: 'justify'}}>{ data.details }</p>
             </div>
             <div>
                 Tech Stack Used :
