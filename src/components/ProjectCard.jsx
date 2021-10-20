@@ -11,7 +11,7 @@ export default function ProjectCard({ data }) {
                 <img className={styles.cardImg} src={ data.img } alt="bg_img" />
             </div>
             <div>
-                <h1>{ data.heading }</h1>
+                <h1 style={{height:'90px'}}>{ data.heading }</h1>
             </div>
             <div>
                 <p style={{height:'130px', textAlign: 'justify'}}>{ data.details }</p>
