@@ -18,7 +18,7 @@ export default function About() {
                     of a FullStack Web Developer. Proficient
                     in solving Data Structure and Algorithm
                     Problems, and developing projects with
-                    remote collaboration
+                    remote collaboration.
                 </div>
             </div>
         </div>
