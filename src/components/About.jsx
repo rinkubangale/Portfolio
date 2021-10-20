@@ -11,14 +11,14 @@ export default function About() {
             <div className={Styles.AboutSec}>
                 <div className={Styles.phead}>About Me,</div>
                 <div className={Styles.pdata}>
-                    'I'm, A self-motivated individual with a
+                    I'm, A self-motivated individual with a
                     problem-solving mindset. Seeking an
                     opportunity that allows me to best utilize
                     the skillset and experience within the role
                     of a FullStack Web Developer. Proficient
                     in solving Data Structure and Algorithm
                     Problems, and developing projects with
-                    remote collaboration'
+                    remote collaboration
                 </div>
             </div>
         </div>
