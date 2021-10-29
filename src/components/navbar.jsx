@@ -40,14 +40,17 @@ export default function Navbar({ imageLink, navStyle }) {
                 <div className='divLinkContainer'>
                     <Link to='/contact' className='aLinkContainer'>Contact</Link>
                 </div>
-                <div >
+                <div className='divLinkContainer'>
+                    <Link to={Resume} target='_blank' className='aLinkContainer' download >Resume</Link>
+                </div>
+                {/* <div >
                     <div className='aLinkContainer' style={{
                         fontSize: '18px',
                         rightpadding: '0px',
                         cursor: 'default',
                     }}>Resume</div>
                 </div>
-                <div className='res dwnld'><Link to={Resume} target='_blank' download ><HiOutlineDownload /></Link></div>
+                <div className='res dwnld'><Link to={Resume} target='_blank' download ><HiOutlineDownload /></Link></div> */}
             </div>
         </div>
     )
