@@ -1,7 +1,7 @@
 import {useState} from 'react'
 import { Link } from 'react-router-dom'
 import { HiOutlineDownload, HiOutlineViewList } from 'react-icons/hi'
-import Resume from './Resume.pdf'
+// import Resume from 'https://drive.google.com/drive/u/0/folders/1KDZ0rSZL0BGf69Ezqa3XHUYySMd4B8-E';
 
 
 export default function Navbar({ imageLink, navStyle }) {
@@ -41,7 +41,7 @@ export default function Navbar({ imageLink, navStyle }) {
                     <Link to='/contact' className='aLinkContainer'>Contact</Link>
                 </div>
                 <div className='divLinkContainer'>
-                    <Link to={Resume} target='_blank' className='aLinkContainer' download >Resume</Link>
+                    <a href="https://drive.google.com/file/d/1YDsvE_tz3zgG7ev_-cbnruYnUy_qfQkR/view?usp=sharing" target='_blank' className='aLinkContainer'>Resume</a>
                 </div>
                 {/* <div >
                     <div className='aLinkContainer' style={{
