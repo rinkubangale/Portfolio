@@ -14,7 +14,7 @@ export default function About() {
                     I'm, A self-motivated individual with a
                     problem-solving mindset. Seeking an
                     opportunity that allows me to best utilize
-                    the skillset and experience within the role
+                    the skill set and experience within the role
                     of a FullStack Web Developer. Proficient
                     in solving Data Structure and Algorithm
                     Problems, and developing projects with

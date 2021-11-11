@@ -21,6 +21,7 @@
     padding: 5px 15px;
     font-weight: bold;
     font-family: 'Architects Daughter';
+    text-decoration: none;
     letter-spacing: 2px;
     box-shadow: -2px 3px 2px #ddd;
     cursor: pointer;

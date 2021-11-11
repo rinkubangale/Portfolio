@@ -23,7 +23,7 @@ export default function ProjectCard({ data }) {
                 <SiCss3 style={{fontSize: '30px', margin:'20px 5px 0px 20px'}} />css
                 <SiJavascript style={{fontSize: '30px', margin:'20px 8px 0px 20px'}} />Javascript
             </div>
-            <div style={{margin:'30px 0px'}}>
+            <div style={{width:"max-content",margin:'30px auto'}}>
                 <a className={styles.btn} href={data.gitLink} target="_blank">GitHub</a>
                 <a className={styles.btn} href={data.demoLink} target="_blank">Demo</a>
             </div>
