@@ -1,6 +1,6 @@
 import styles from './project.module.css'
 
-import {SiJavascript, SiHtml5, SiCss3, SiExpress, SiMongodb, SiMysql, SiGit } from 'react-icons/si'
+import {SiJavascript, SiHtml5, SiCss3 } from 'react-icons/si'
 
 
 export default function ProjectCard({ data }) {
@@ -24,8 +24,8 @@ export default function ProjectCard({ data }) {
                 <SiJavascript style={{fontSize: '30px', margin:'20px 8px 0px 20px'}} />Javascript
             </div>
             <div style={{width:"max-content",margin:'30px auto'}}>
-                <a className={styles.btn} href={data.gitLink} target="_blank">GitHub</a>
-                <a className={styles.btn} href={data.demoLink} target="_blank">Demo</a>
+                <a className={styles.btn} href={data.gitLink} target="_blank"  rel="noreferrer" >GitHub</a>
+                <a className={styles.btn} href={data.demoLink} target="_blank"  rel="noreferrer" >Demo</a>
             </div>
         </div>
     </>

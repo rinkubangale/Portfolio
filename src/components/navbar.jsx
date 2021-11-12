@@ -1,6 +1,6 @@
 import {useState} from 'react'
 import { Link } from 'react-router-dom'
-import { HiOutlineDownload, HiOutlineViewList } from 'react-icons/hi'
+import { HiOutlineViewList } from 'react-icons/hi'
 // import Resume from 'https://drive.google.com/drive/u/0/folders/1KDZ0rSZL0BGf69Ezqa3XHUYySMd4B8-E';
 
 
@@ -10,17 +10,17 @@ export default function Navbar({ imageLink, navStyle }) {
         isNav?setIsNav(false):setIsNav(true)
     }
 
-    const displayStyle1 = {
-        display: 'flex',
-    }
-    const displayStyle2 = {
-        display: 'none',
-    }
+    // const displayStyle1 = {
+    //     display: 'flex',
+    // }
+    // const displayStyle2 = {
+    //     display: 'none',
+    // }
     return  (
         <div className="navbar">
             <div className='logoContainer'>
                 <Link to='/'>
-                    <img src={imageLink} alt="image logo" className='logo'/>
+                    <img src={imageLink} alt="img logo" className='logo'/>
                 </Link>
             </div>
 
@@ -41,7 +41,7 @@ export default function Navbar({ imageLink, navStyle }) {
                     <Link to='/contact' className='aLinkContainer'>Contact</Link>
                 </div>
                 <div className='divLinkContainer'>
-                    <a href="https://drive.google.com/file/d/1YDsvE_tz3zgG7ev_-cbnruYnUy_qfQkR/view?usp=sharing" target='_blank' className='aLinkContainer'>Resume</a>
+                    <a href="https://drive.google.com/file/d/1YDsvE_tz3zgG7ev_-cbnruYnUy_qfQkR/view?usp=sharing" target='_blank' rel="noreferrer" className='aLinkContainer'>Resume</a>
                 </div>
                 {/* <div >
                     <div className='aLinkContainer' style={{

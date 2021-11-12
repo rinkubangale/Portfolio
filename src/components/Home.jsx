@@ -1,7 +1,7 @@
 import { FaGithub, FaLinkedinIn, FaTwitter, FaMedium } from 'react-icons/fa'
 import { FiMail, FiPhone } from 'react-icons/fi'
-import { Link } from 'react-router-dom'
-import Styles from './home.css'
+// import { Link } from 'react-router-dom'
+import './home.css'
 import Avatar from './Avatar.jpg'
 export default function Home() {
     
@@ -16,16 +16,16 @@ export default function Home() {
                 justifyContent: 'space-between',
                 width: '75%',
             }}>
-                <a href='https://github.com/rinkubangale' target='_blank' >
+                <a href='https://github.com/rinkubangale' target='_blank' rel="noreferrer" >
                     <FaGithub />
                 </a>
-                <a href='https://www.linkedin.com/in/rinku-bangale-599433155' target='_blank' >
+                <a href='https://www.linkedin.com/in/rinku-bangale-599433155' target='_blank' rel="noreferrer" >
                     <FaLinkedinIn />        
                 </a>
-                <a href='https://twitter.com/rinku_bangale' target='_blank'>
+                <a href='https://twitter.com/rinku_bangale' target='_blank' rel="noreferrer" >
                     <FaTwitter />
                 </a>
-                <a href='https://medium.com/@bangalehemant' target='_blank' >
+                <a href='https://medium.com/@bangalehemant' target='_blank' rel="noreferrer" >
                     <FaMedium />
                 </a>
             </div>
