@@ -2,7 +2,7 @@ import { FaGithub, FaLinkedinIn, FaTwitter, FaMedium } from 'react-icons/fa'
 import { FiMail, FiPhone } from 'react-icons/fi'
 // import { Link } from 'react-router-dom'
 import './home.css'
-import Avatar from './Avatar.jpg'
+import Avatar from './Avatar.png'
 export default function Home() {
     
     return (<>
