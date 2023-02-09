@@ -10,7 +10,7 @@ export default function Home() {
             <div style={{fontSize:'large'}}>hey, I'm</div>
             <div>Rinku Bangale</div>
             <div style={{textAlign:'center'}}><img src={Avatar} alt="" style={{width:'50%', borderRadius:'50%', border: '2px dotted', padding: '4px'}}/></div>
-            <div style={{fontSize:'x-large'}}> Aspiring Full Stack Web Developer</div>
+            <div style={{fontSize:'x-large'}}> Salesforce Developer | Full Stack Web Developer</div>
             <div style={{
                 display: 'flex',
                 justifyContent: 'space-between',
