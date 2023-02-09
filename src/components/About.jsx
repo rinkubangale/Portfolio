@@ -1,6 +1,6 @@
 import {SiJavascript, SiHtml5, SiCss3, SiExpress, SiMongodb, SiMysql, SiGit } from 'react-icons/si'
 
-import {FaReact, FaNodeJs} from 'react-icons/fa'
+import {FaReact, FaNodeJs, FaSalesforce} from 'react-icons/fa'
 
 import Styles from './about.module.css';
 
@@ -11,14 +11,14 @@ export default function About() {
             <div className={Styles.AboutSec}>
                 <div className={Styles.phead}>About Me,</div>
                 <div className={Styles.pdata}>
-                    I'm, A self-motivated individual with a
-                    problem-solving mindset. Seeking an
-                    opportunity that allows me to best utilize
-                    the skill set and experience within the role
-                    of a FullStack Web Developer. Proficient
-                    in solving Data Structure and Algorithm
-                    Problems, and developing projects with
-                    remote collaboration.
+                    I'm, A self-motivated and experienced Salesforce developer with more than a
+                    years of experience in designing and implementing solutions
+                    using the Salesforce platform. Proficient in Apex, LWC, and
+                    Lightning development, with a proven track record of delivering
+                    complex projects on time. Strong problem-solving skills,
+                    excellent communication abilities, and a passion for technology
+                    make me an asset to any organization looking to drive growth
+                    and success through the use of Salesforce.
                 </div>
             </div>
         </div>
@@ -26,6 +26,7 @@ export default function About() {
             <div className={Styles.aboutDiv}>{'Skills & Proficiencies'}</div>
             <div className={Styles.aboutIcons}>
 
+                <div className={Styles.Appicons}><FaSalesforce /><div style={{fontSize: '14px', textAlign: 'center'}}>Salesforce</div></div>
                 <div className={Styles.Appicons}><FaReact /><div style={{fontSize: '14px', textAlign: 'center'}}>React</div></div>
                 <div className={Styles.Appicons}><SiJavascript /><div style={{fontSize: '14px', textAlign: 'center'}}>JavaScript</div></div>
                 <div className={Styles.Appicons}><SiHtml5 /><div style={{fontSize: '14px', textAlign: 'center'}}>HTML</div></div>
