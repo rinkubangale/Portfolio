@@ -19,7 +19,7 @@
     /* font-family: sans-serif; */
     color: black;
     font-weight: bold;
-    width: 42%;
+    width: 25%;
 }
 .aLinkContainer{
     font-size: 20px;
@@ -80,25 +80,26 @@
     .linkContainer {
         /* display: flex; */
         z-index: 1;
-        border: 2px solid #aaa;
+        box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
         flex-direction: column;
         margin: 0px;
         padding-top: 30px;
         font-size: 1.5rem;
         color: black;
         font-weight: bold;
-        width: 50%;
         height: fit-content;
         background: #fff;
-        line-height: 2rem;
     }
     /* .linkContainer:last-child{
         margin-bottom: 300px;
     } */
     .displayDiv{
         display: flex;
-        align-items: center;
-        /* padding-bottom: 15px; */
+        height: 100%;
+        position: fixed;
+        top: 0;
+        right: 0;
+        justify-content: flex-start;
     }
     .noDisplayDiv {
         display: none;
