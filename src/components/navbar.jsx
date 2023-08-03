@@ -41,7 +41,7 @@ export default function Navbar({ imageLink, navStyle }) {
                     <Link to='/contact' className='aLinkContainer'>Contact</Link>
                 </div>
                 <div className='divLinkContainer'>
-                    <a href="https://drive.google.com/file/d/1iF68KrUM_uxOjH2e2qzpkh_iGqAwi_dv/view?usp=sharing" target='_blank' rel="noreferrer" className='aLinkContainer'>Resume</a>
+                    <a href="https://drive.google.com/file/d/1FAJnEmO1t4RDFO3A09i4ZFhTgWOhCUHx/view?usp=sharing" target='_blank' rel="noreferrer" className='aLinkContainer'>Resume/CV</a>
                 </div>
                 {/* <div >
                 href="https://drive.google.com/file/d/1YDsvE_tz3zgG7ev_-cbnruYnUy_qfQkR/view?usp=sharing"  //prev resume link
