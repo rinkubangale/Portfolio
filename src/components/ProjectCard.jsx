@@ -25,7 +25,7 @@ export default function ProjectCard({ data }) {
             </div>
             <div style={{width:"max-content",margin:'30px auto'}}>
                 <a className={styles.btn} href={data.gitLink} target="_blank"  rel="noreferrer" >GitHub</a>
-                <a className={styles.btn} href={data.demoLink} target="_blank"  rel="noreferrer" >Demo</a>
+{/*                 <a className={styles.btn} href={data.demoLink} target="_blank"  rel="noreferrer" >Demo</a> */}
             </div>
         </div>
     </>
