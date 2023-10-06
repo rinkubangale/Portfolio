@@ -77,17 +77,17 @@
 		embedded_svc.settings.entryFeature = 'LiveAgent';
 
 		embedded_svc.init(
-			'https://dealer--b2bpartial.sandbox.my.salesforce.com',
-			'https://dealer--b2bpartial.sandbox.my.site.com/AllAxcess',
+			'https://sedintechnologiescorp21-dev-ed.my.salesforce.com',
+			'https://sedintechnologiescorp21-dev-ed.my.salesforce-sites.com/liveAgentSetupFlow',
 			gslbBaseURL,
-			'00D5C0000008ubZ',
-			'Web_Gibson_ChatTest',
+			'00D5i000004ScEw',
+			'portfolioChats',
 			{
-				baseLiveAgentContentURL: 'https://c.la2-c1cs-ia4.salesforceliveagent.com/content',
-				deploymentId: '5725e000000xrvf',
-				buttonId: '5735C000000GoCc',
-				baseLiveAgentURL: 'https://d.la2-c1cs-ia4.salesforceliveagent.com/chat',
-				eswLiveAgentDevName: 'Web_Gibson_ChatTest',
+				baseLiveAgentContentURL: 'https://c.la2-c2-hnd.salesforceliveagent.com/content',
+				deploymentId: '5725i0000000q9J',
+				buttonId: '5735i0000000rOW',
+				baseLiveAgentURL: 'https://d.la2-c2-hnd.salesforceliveagent.com/chat',
+				eswLiveAgentDevName: 'portfolioChats',
 				isOfflineSupportEnabled: false
 			}
 		);
@@ -95,7 +95,7 @@
 
 	if (!window.embedded_svc) {
 		var s = document.createElement('script');
-		s.setAttribute('src', 'https://dealer--b2bpartial.sandbox.my.salesforce.com/embeddedservice/5.0/esw.min.js');
+		s.setAttribute('src', 'https://sedintechnologiescorp21-dev-ed.my.salesforce.com/embeddedservice/5.0/esw.min.js');
 		s.onload = function() {
 			initESW(null);
 		};
