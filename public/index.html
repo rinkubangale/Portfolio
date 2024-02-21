@@ -78,16 +78,16 @@
 
 		embedded_svc.init(
 			'https://sedintechnologiescorp21-dev-ed.my.salesforce.com',
-			'https://sedintechnologiescorp21-dev-ed.my.salesforce-sites.com/guestUserForm',
+			'https://sedintechnologiescorp21-dev-ed.my.site.com/',
 			gslbBaseURL,
 			'00D5i000004ScEw',
-			'portfolioChats',
+			'webChatsPortfolio',
 			{
 				baseLiveAgentContentURL: 'https://c.la2-c2-hnd.salesforceliveagent.com/content',
 				deploymentId: '5725i0000000q9J',
-				buttonId: '5735i0000000rOW',
+				buttonId: '5735i000000xUZi',
 				baseLiveAgentURL: 'https://d.la2-c2-hnd.salesforceliveagent.com/chat',
-				eswLiveAgentDevName: 'portfolioChats',
+				eswLiveAgentDevName: 'webChatsPortfolio',
 				isOfflineSupportEnabled: false
 			}
 		);
@@ -104,32 +104,6 @@
 		initESW('https://service.force.com');
 	}
 </script>
-
-	<script type='text/javascript' src='https://c.la2-c2-hnd.salesforceliveagent.com/content/g/js/60.0/deployment.js'></script>
-<script type='text/javascript'>
-liveagent.init('https://d.la2-c2-hnd.salesforceliveagent.com/chat', '5725i0000000q9J', '00D5i000004ScEw');
-</script>
-	
-<!-- 	<script type='text/javascript'>
-	function initEmbeddedMessaging() {
-		try {
-			embeddedservice_bootstrap.settings.language = 'en_US'; // For example, enter 'en' or 'en-US'
-
-			embeddedservice_bootstrap.init(
-				'00D5C0000008ubZ',
-				'MessagingPortfolio',
-				'https://dealer--b2bpartial.sandbox.my.site.com/ESWMessagingPortfolio1699609728755',
-				{
-					scrt2URL: 'https://dealer--b2bpartial.sandbox.my.salesforce-scrt.com'
-				}
-			);
-		} catch (err) {
-			console.error('Error loading Embedded Messaging: ', err);
-		}
-	};
-</script>
-<script type='text/javascript' src='https://dealer--b2bpartial.sandbox.my.site.com/ESWMessagingPortfolio1699609728755/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script> -->
-
 
 </body>
 
